@@ -1,0 +1,5 @@
+php artisan queue:work
+
+redis-server.exe ./redis.windows.conf
+
+laravel-echo-server start

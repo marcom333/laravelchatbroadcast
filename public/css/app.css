@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+
+.main{
+    margin-top: 20px;
+    background-color: rgba(255,255,255,0.4);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.chat-screen{
+    height: 500px;
+    background-color: rgba(255,255,255,0.2);
+    padding: 10px;
+    overflow-wrap: break-word;
+    overflow-y: auto;
+}
+
+.chat-input{
+    height: 50px;
+    background-color: rgba(255,255,255,0.2);
+    border-top: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
