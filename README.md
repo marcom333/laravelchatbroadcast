@@ -1,3 +1,29 @@
+## requirements
+1) Redis v3.2.100
+2) composer
+3) Apache
+4) php
+5) mysql
+6) node.js
+
+## Instalation
+1) clone repository
+2) enter in proyect root
+3) run ``composer install``
+4) create a database to the project
+5) copy .env.example and rename to .env
+6) setup .env: 
+    6.1) database connection
+    6.2) redis
+    6.3) laravel-echo-port
+7) run ``php artisan migrate``
+8) run redis server
+9) run ``php artisan serve``
+10) run ``npm install -g laravel-echo-server``
+11) run ``npm install``
+12) run ``laravel-echo-server start``
+13) run ``php artisan queue:work``
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
